@@ -15,5 +15,14 @@ forceload add -16 -16 16 16
 # 汎用シュルカーボックス
 setblock 0 0 0 black_shulker_box
 
+
+# score
+ scoreboard objectives add CD.default dummy
+ scoreboard players set @a CD.default 1
+ scoreboard objectives add CD.hyperion dummy
+ scoreboard players set @a CD.hyperion 1
+ scoreboard objectives add ray_steps dummy
+ scoreboard objectives add ray_success dummy
+
 # reload確認
 say Reloaded!
