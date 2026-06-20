@@ -23,6 +23,8 @@ setblock 0 0 0 black_shulker_box
  scoreboard players set @a CD.hyperion 1
  scoreboard objectives add ray_steps dummy
  scoreboard objectives add ray_success dummy
+ scoreboard objectives add shelmet dummy
+
 
 # reload確認
 say Reloaded!

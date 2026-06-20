@@ -4,4 +4,5 @@
 
 
 # hyperion
+ execute if score @s CD.hyperion matches 1 run function system:ability/sword/hyperion_shield
  execute if score @s CD.hyperion matches 1.. run scoreboard players remove @s CD.hyperion 1
