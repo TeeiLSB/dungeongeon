@@ -1,5 +1,5 @@
 
-execute if score @s CD.default matches 0 at @s anchored eyes positioned ^ ^ ^ anchored feet run function system:raycast/nomal/start
+execute if score @s CD.default matches 0 at @s anchored eyes positioned ^ ^ ^ anchored feet run function system:raycast/nomal/start {"reach":"120"}
 
 
 execute if score @s CD.default matches 0 run scoreboard players set @s CD.default 3
